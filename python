@@ -1,0 +1,961 @@
+PYTHON COMPLETE REVISION NOTES
+
+
+1. PYTHON
+
+Definition:
+
+Python is a high-level, interpreted, general-purpose programming language. It is known for its simple and readable syntax.
+
+Example:
+
+print("Hello World")
+
+Features / Types:
+
+- High-level language
+- Interpreted language
+- Object-oriented language
+- Dynamically typed
+- General-purpose language
+
+Uses:
+
+- Data Analysis
+- Data Science
+- Machine Learning
+- Web Development
+- Automation
+- Artificial Intelligence
+
+
+2. VARIABLES
+
+Definition:
+
+A variable is a name used to store a value.
+
+Example:
+
+name = "Kalpana"
+age = 22
+
+Here:
+
+name → Variable name
+"Kalpana" → Value
+
+Types:
+
+A variable can store different types of data.
+
+name = "Kalpana"
+age = 22
+marks = 90.5
+
+Uses:
+
+Variables are used to store and reuse data in a program.
+
+
+3. DATA TYPES
+
+Definition:
+
+A data type tells Python what type of data is being stored.
+
+Example:
+
+name = "Kalpana"
+age = 22
+marks = 90.5
+
+Types:
+
+int → Whole numbers
+
+age = 22
+
+
+float → Decimal numbers
+
+marks = 90.5
+
+
+str → Text
+
+name = "Kalpana"
+
+
+bool → True or False
+
+result = True
+
+
+list → Multiple values
+
+numbers = [1, 2, 3]
+
+
+tuple → Multiple immutable values
+
+numbers = (1, 2, 3)
+
+
+set → Unique values
+
+numbers = {1, 2, 3}
+
+
+dict → Key-value pairs
+
+student = {"name": "Kalpana"}
+
+Uses:
+
+Data types help Python understand how data should be stored and processed.
+
+
+4. TYPE CONVERSION
+
+Definition:
+
+Type conversion means changing one data type into another data type.
+
+Example:
+
+age = "22"
+
+new_age = int(age)
+
+print(new_age)
+
+Types:
+
+int()
+float()
+str()
+list()
+tuple()
+set()
+
+Examples:
+
+int("10")
+float(10)
+str(100)
+list("Hello")
+
+Uses:
+
+Type conversion is used when we need data in a different format.
+
+
+5. OPERATORS
+
+Definition:
+
+Operators are symbols used to perform operations on values and variables.
+
+Example:
+
+a = 10
+b = 5
+
+print(a + b)
+
+Types:
+
+Arithmetic Operators:
+
++ → Addition
+- → Subtraction
+* → Multiplication
+/ → Division
+// → Floor Division
+% → Modulus
+** → Power
+
+
+Comparison Operators:
+
+== → Equal to
+!= → Not equal to
+> → Greater than
+< → Less than
+>= → Greater than or equal to
+<= → Less than or equal to
+
+
+Logical Operators:
+
+and
+or
+not
+
+
+Assignment Operators:
+
+=
++=
+-=
+*=
+/=
+
+Uses:
+
+Operators are used for calculations, comparisons, and logical decisions.
+
+
+6. INPUT AND OUTPUT
+
+Definition:
+
+Input means taking information from the user.
+
+Output means displaying information to the user.
+
+Example:
+
+name = input("Enter your name: ")
+
+print(name)
+
+Types:
+
+input() → Takes input
+
+print() → Displays output
+
+Uses:
+
+Input allows users to give data to a program, and output displays results.
+
+
+7. CONDITIONAL STATEMENTS
+
+Definition:
+
+Conditional statements are used to make decisions based on conditions.
+
+Example:
+
+age = 20
+
+if age >= 18:
+    print("Eligible")
+
+Types:
+
+if statement:
+
+if age >= 18:
+    print("Eligible")
+
+
+if-else statement:
+
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+
+if-elif-else statement:
+
+if marks >= 90:
+    print("A")
+elif marks >= 60:
+    print("B")
+else:
+    print("C")
+
+Uses:
+
+Conditional statements are used when a program needs to make decisions.
+
+
+8. LOOPS
+
+Definition:
+
+Loops are used to repeat a block of code.
+
+Example:
+
+for i in range(5):
+    print(i)
+
+Types:
+
+For Loop:
+
+for i in range(5):
+    print(i)
+
+
+While Loop:
+
+i = 0
+
+while i < 5:
+    print(i)
+    i += 1
+
+Uses:
+
+Loops reduce repeated code and help process multiple values.
+
+
+9. LOOP CONTROL STATEMENTS
+
+Definition:
+
+Loop control statements change the normal flow of a loop.
+
+Types:
+
+break → Stops the loop completely
+
+Example:
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+
+continue → Skips the current iteration
+
+Example:
+
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+
+pass → Does nothing and works as a placeholder
+
+Example:
+
+for i in range(5):
+    pass
+
+Uses:
+
+They are used to control loop behavior.
+
+
+10. STRINGS
+
+Definition:
+
+A string is a sequence of characters enclosed inside quotes.
+
+Example:
+
+name = "Kalpana"
+
+Types:
+
+Single quotes:
+
+'Hello'
+
+
+Double quotes:
+
+"Hello"
+
+
+Triple quotes:
+
+"""Hello"""
+
+Important Concepts:
+
+Indexing:
+
+name = "Kalpana"
+
+print(name[0])
+
+
+Slicing:
+
+print(name[0:4])
+
+Common Methods:
+
+upper()
+lower()
+strip()
+replace()
+split()
+find()
+startswith()
+endswith()
+
+Uses:
+
+Strings are used to store and manipulate text.
+
+
+11. LIST
+
+Definition:
+
+A list is an ordered and mutable collection of multiple values.
+
+Example:
+
+numbers = [10, 20, 30]
+
+Features:
+
+- Ordered
+- Mutable
+- Allows duplicates
+- Can store different data types
+
+Common Methods:
+
+append()
+extend()
+insert()
+remove()
+pop()
+sort()
+reverse()
+copy()
+
+Uses:
+
+Lists are used to store multiple values that may need to be changed.
+
+
+12. TUPLE
+
+Definition:
+
+A tuple is an ordered and immutable collection of values.
+
+Example:
+
+numbers = (10, 20, 30)
+
+Features:
+
+- Ordered
+- Immutable
+- Allows duplicates
+
+Uses:
+
+Tuples are used when data should not be changed.
+
+
+13. SET
+
+Definition:
+
+A set is a collection that stores unique values.
+
+Example:
+
+numbers = {1, 2, 3}
+
+Features:
+
+- Does not allow duplicates
+- Unordered
+- Mutable
+
+Common Methods:
+
+add()
+remove()
+discard()
+
+Uses:
+
+Sets are useful when we want unique values or want to remove duplicates.
+
+
+14. DICTIONARY
+
+Definition:
+
+A dictionary stores data in key-value pairs.
+
+Example:
+
+student = {
+    "name": "Kalpana",
+    "age": 22
+}
+
+Important Concepts:
+
+"name" → Key
+
+"Kalpana" → Value
+
+Common Methods:
+
+keys()
+values()
+items()
+get()
+update()
+pop()
+
+Uses:
+
+Dictionaries are used to store related information using keys.
+
+
+15. FUNCTIONS
+
+Definition:
+
+A function is a reusable block of code that performs a specific task.
+
+Example:
+
+def greet():
+    print("Hello")
+
+greet()
+
+Types:
+
+Function without parameters:
+
+def greet():
+    print("Hello")
+
+
+Function with parameters:
+
+def greet(name):
+    print(name)
+
+greet("Kalpana")
+
+
+Function with return:
+
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+
+Uses:
+
+- Reuse code
+- Organize code
+- Reduce repetition
+
+
+16. RETURN
+
+Definition:
+
+return sends a value from a function back to where the function was called.
+
+Example:
+
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print(result)
+
+Uses:
+
+return is used when we want to use the result of a function later.
+
+
+17. *ARGS AND **KWARGS
+
+Definition:
+
+*args and **kwargs allow a function to accept multiple arguments.
+
+Types:
+
+*args → Multiple positional arguments
+
+Example:
+
+def add(*numbers):
+    print(numbers)
+
+
+**kwargs → Multiple keyword arguments
+
+Example:
+
+def details(**data):
+    print(data)
+
+Uses:
+
+They are useful when we do not know how many arguments will be passed.
+
+
+18. LIST COMPREHENSION
+
+Definition:
+
+List comprehension is a short way to create a list.
+
+Example:
+
+numbers = [1, 2, 3, 4]
+
+squares = [x * x for x in numbers]
+
+print(squares)
+
+Uses:
+
+It makes simple list creation shorter and cleaner.
+
+
+19. LAMBDA FUNCTION
+
+Definition:
+
+A lambda function is a small anonymous function written in one line.
+
+Example:
+
+add = lambda a, b: a + b
+
+print(add(10, 20))
+
+Uses:
+
+Lambda functions are useful for short and simple operations.
+
+
+20. EXCEPTION HANDLING
+
+Definition:
+
+Exception handling is used to handle errors and prevent a program from stopping unexpectedly.
+
+Example:
+
+try:
+    print(10 / 0)
+
+except:
+    print("Error occurred")
+
+Types:
+
+try → Code that may cause an error
+
+except → Handles the error
+
+else → Runs if no error occurs
+
+finally → Always executes
+
+Uses:
+
+Exception handling makes programs safer and easier to manage.
+
+
+21. FILE HANDLING
+
+Definition:
+
+File handling allows Python to read data from files and write data into files.
+
+Example of Writing:
+
+file = open("data.txt", "w")
+
+file.write("Hello")
+
+file.close()
+
+
+Example of Reading:
+
+file = open("data.txt", "r")
+
+data = file.read()
+
+print(data)
+
+file.close()
+
+Types / Modes:
+
+"r" → Read
+
+"w" → Write
+
+"a" → Append
+
+Uses:
+
+File handling is used to save data permanently and retrieve saved data later.
+
+
+22. MODULES
+
+Definition:
+
+A module is a Python file containing reusable code.
+
+Example:
+
+import math
+
+print(math.sqrt(16))
+
+Uses:
+
+Modules help us reuse existing code.
+
+
+23. ITERABLE
+
+Definition:
+
+An iterable is an object that we can loop through one item at a time.
+
+Examples:
+
+List
+Tuple
+String
+Dictionary
+Set
+
+Example:
+
+numbers = [1, 2, 3]
+
+for num in numbers:
+    print(num)
+
+Uses:
+
+Iterables are used with loops.
+
+
+24. ITERATOR
+
+Definition:
+
+An iterator is an object that gives values one by one.
+
+Example:
+
+numbers = [1, 2, 3]
+
+iterator = iter(numbers)
+
+print(next(iterator))
+
+Uses:
+
+Iterators are used to process data one element at a time.
+
+
+25. OOPS
+
+Definition:
+
+OOPS stands for Object-Oriented Programming System.
+
+It is a programming approach that organizes code using classes and objects.
+
+Main Concepts:
+
+Class
+Object
+Constructor
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+
+Uses:
+
+OOPS makes code reusable, organized, and easier to manage.
+
+
+26. CLASS
+
+Definition:
+
+A class is a blueprint used to create objects.
+
+Example:
+
+class Student:
+    pass
+
+Uses:
+
+A class is used to define the properties and behavior of objects.
+
+
+27. OBJECT
+
+Definition:
+
+An object is an instance of a class.
+
+Example:
+
+class Student:
+    pass
+
+s1 = Student()
+
+Uses:
+
+Objects are used to access the properties and methods of a class.
+
+
+28. CONSTRUCTOR
+
+Definition:
+
+A constructor is a special method that automatically runs when an object is created.
+
+Example:
+
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Kalpana")
+
+Uses:
+
+Constructors are used to initialize object data.
+
+
+29. SELF
+
+Definition:
+
+self refers to the current object.
+
+Example:
+
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+Uses:
+
+self is used to access the variables and methods of the current object.
+
+
+30. INHERITANCE
+
+Definition:
+
+Inheritance allows one class to acquire properties and methods from another class.
+
+Example:
+
+class Parent:
+
+    def show(self):
+        print("Hello")
+
+
+class Child(Parent):
+    pass
+
+
+c = Child()
+
+c.show()
+
+Types:
+
+- Single Inheritance
+- Multiple Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Hybrid Inheritance
+
+Uses:
+
+Inheritance helps us reuse code.
+
+
+31. POLYMORPHISM
+
+Definition:
+
+Polymorphism means the same method or operation can behave differently in different situations.
+
+Example:
+
+class Dog:
+
+    def sound(self):
+        print("Bark")
+
+
+class Cat:
+
+    def sound(self):
+        print("Meow")
+
+Uses:
+
+Polymorphism makes code flexible.
+
+
+32. ENCAPSULATION
+
+Definition:
+
+Encapsulation means wrapping data and methods together inside a class and controlling access to data.
+
+Example:
+
+class Student:
+
+    def __init__(self):
+        self.__marks = 90
+
+Uses:
+
+Encapsulation helps protect data.
+
+
+33. ABSTRACTION
+
+Definition:
+
+Abstraction means hiding unnecessary details and showing only important features.
+
+Example:
+
+When driving a car, we use the steering and brake without knowing how the engine works internally.
+
+Uses:
+
+Abstraction reduces complexity.
+
+
