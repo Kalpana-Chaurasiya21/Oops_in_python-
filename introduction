@@ -1,0 +1,37 @@
+Introduction to Data Structures and Algorithms (DSA)
+
+1. Definition
+
+Data Structure: A way of storing and organizing data in a computer so that it can be used efficiently. Examples are array, linked list, stack, queue, tree and graph.
+
+Algorithm: A finite set of steps or instructions written to solve a particular problem.
+
+DSA: The study of data structures along with the algorithms that can be used to perform operations on them, such as searching, sorting, inserting and deleting, in an efficient manner.
+
+2. Working
+
+Data is first stored in some structure depending on the type of problem. For example, an array is used for fixed size sequential data while a linked list is used for data whose size keeps changing. An algorithm is then applied on top of this structure to perform the required operation.
+
+The efficiency of any algorithm is measured using two things. Time complexity tells us how much time the algorithm takes to run and is denoted using Big-O notation such as O(n), O(log n) or O(n square). Space complexity tells us how much extra memory the algorithm uses.
+
+The main aim of DSA is to choose the right combination of data structure and algorithm so that a problem can be solved using the least possible time and memory.
+
+3. Types of Data Structures
+
+Linear data structures are those in which elements are arranged in a sequential manner, one after another. Array, linked list, stack and queue come under this category.
+
+Non-linear data structures are those in which elements are not arranged sequentially but are connected in a hierarchical or networked way. Tree, graph and heap come under this category.
+
+Hash based structures store data in the form of key-value pairs so that access becomes very fast. HashMap and HashSet are common examples.
+
+4. Types of Algorithms
+
+Searching algorithms such as linear search and binary search are used to find an element in a data structure. Sorting algorithms such as bubble sort, selection sort, merge sort and quick sort are used to arrange data in a particular order. Recursion and backtracking are techniques where a problem is solved by breaking it into smaller versions of itself. Greedy algorithms make the best possible choice at each step. Dynamic programming avoids repeated calculations by storing results of subproblems. Graph algorithms like BFS and DFS are used to traverse or search through graph structures.
+
+5. Use Cases
+
+An array is used to store a fixed collection of items, like the marks of students in a class. A stack is used in operations like undo in software or the back button in a browser. A queue is used in task scheduling and handling printer jobs in order. A tree is used in file systems and in database indexing. A graph is used in maps and navigation systems and also in representing social media connections. A HashMap is used wherever fast searching is required, such as in dictionary apps or caching systems.
+
+Revision Points
+
+Data structure means how data is stored while algorithm means the steps followed to solve a problem. Efficiency of an algorithm is measured through time complexity and space complexity. Data structures are mainly divided into linear and non-linear types. Common categories of algorithms include searching, sorting, recursion, greedy methods, dynamic programming and graph algorithms. No single data structure is best for every situation, the right choice depends on the problem at hand. Real life examples include Google Maps using graphs, dictionary apps using hashmaps and file explorers using trees.
